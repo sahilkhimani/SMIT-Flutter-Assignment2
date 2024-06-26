@@ -2,6 +2,10 @@
 // where to find all keys that have length 4.
 
 void main() {
-  Map details = {"name": "sahil", "phone": "03333333333"};
-  print(details.keys.where((e) => e.length >=4));
+  Map details = {
+    "Sahil": "03333333",
+    "Asif": "02121212",
+    "Khimani": "12121221"
+  };
+  print(details.keys.where((e) => e.length == 4));
 }
